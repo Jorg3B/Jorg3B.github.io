@@ -1,0 +1,35 @@
+html{
+    background-color: rgb(161, 253, 24);
+}
+
+*{
+    border: solid 1px #000;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.titulo h1{
+    color: red;
+    font-family: "Original Surfer", sans-serif;
+    font-size: 5rem;
+}
+
+.nav a{
+    color: red;
+    text-decoration: none;
+    background-color: cyan;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+}
