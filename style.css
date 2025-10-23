@@ -1,30 +1,38 @@
 html{
-    background-color: rgb(161, 253, 24);
-}
-
-*{
-    border: solid 1px #000;
+    background-color: rgba(0, 0, 0, 0.97);
 }
 
 main{
     display: flex;
-    justify-content: center;
+    flex-flow: column;
     align-items: center;
-    flex-direction: column;
-    padding-top: 5rem;
-    padding-bottom: 4rem;
+    gap: 2rem;
+    min-height: 80vh;
 }
 
 .titulo h1{
-    color: red;
+    color: rgb(201, 40, 40);
     font-family: "Original Surfer", sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .nav a{
-    color: red;
+    margin-block: 0.5rem;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: cyan;
+    background-color: rgb(201, 40, 40);
+    display: inline-block;
+    padding-inline: 1rem;
+    padding-block: 0.75rem;
+    border-radius: 5px;
+    border: solid 1px white;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(201, 40, 40);
+    transform: scale(1.1);
 }
 
 .nav ul{
